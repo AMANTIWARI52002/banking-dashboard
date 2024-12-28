@@ -1,0 +1,20 @@
+.dashboard {
+  display: grid;
+  gap: 20px;
+}
+
+.topSection,
+.middleSection,
+.bottomSection {
+  display: grid;
+  gap: 20px;
+}
+
+@media (min-width: 768px) {
+  .topSection,
+  .middleSection,
+  .bottomSection {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
